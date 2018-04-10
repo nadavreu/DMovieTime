@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.reubens_pc.dmovietime.EditActivityInternet">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:background="@drawable/theater"
+        android:backgroundTintMode="screen"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+
+            <Button
+                android:onClick="showMovies"
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search"
+                android:textColor="@color/white"/>
+            <EditText
+                android:id="@+id/name"
+                android:background="@color/none"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textColor="@color/white"
+                android:paddingLeft="15sp"
+                android:paddingRight="15sp"
+                android:hint="@string/movie_s_name"
+                android:textColorHint="@color/white"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView"
+            android:background="@color/halfWhite"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <Button
+            android:onClick="cancel"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/buttons"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

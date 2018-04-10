@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DMovieTime</string>
+    <string name="movie_s_name">Movie title</string>
+    <string name="movie_s_description">Movie description</string>
+    <string name="movie_s_image_url">Image URL</string>
+    <string name="show">show</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="movieCreated">Movie Created</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="What_Action">Choose Action</string>
+    <string name="go">GO</string>
+    <string name="search">search</string>
+    <string name="add_by_internet">Add by internet</string>
+    <string name="add_by_yourself">Add by manual</string>
+    <string name="exit">Exit</string>
+    <string name="delete_all">Delete all</string>
+    <string name="gotopage">Go To Page</string>
+    <string name="moviepage">Movie Page</string>
+    <string name="share">share</string>
+    <string name="shares">Share</string>
+    <string name="addmovie">add Movie</string>
+    <string name="setting">setting</string>
+    <string name="random_movie">Random Movie</string>
+    <string name="toast">Movie title must entered</string>
+    <string name="movie_is_list_empty">Movie list is empty</string>
+    <string name="watch">Did you watch it?</string>
+    <string name="trailer">Watch trailer</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="dowload_image">Dowload image</string>
+</resources>
